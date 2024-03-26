@@ -4,7 +4,7 @@ E-commerce REST API based on Java Spring, Spring Boot, Hibernate ORM with MySQL,
 
 ## REST API Endpoints
 
-All inputs and outputs use JSON format
+All inputs and outputs use JSON format.
 
 **To open Swagger (interactive) API documentation, navigate your browser to [YOUR-URL]/swagger-ui.html**
 
