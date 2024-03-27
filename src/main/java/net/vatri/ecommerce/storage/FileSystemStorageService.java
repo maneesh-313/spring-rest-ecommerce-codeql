@@ -42,7 +42,7 @@ public class FileSystemStorageService implements StorageService {
                     + "-" + (10000 + new Random().nextInt(100000))
                     + "-" + filename;//prevend duplicate time
 
-            // Files.copy(file.getInputStream(), location.resolve(filename));
+            Files.copy(file.getInputStream(), location.resolve(filename));
 
             return filename;
 
