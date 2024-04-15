@@ -1,0 +1,9 @@
+name: dependency graph
+on:
+  workflow_dispatch
+jobs:
+  dependencygarph:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Submit Dependency Snapshot
+      uses: advanced-security/maven-dependency-submission-action@v3
